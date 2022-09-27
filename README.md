@@ -2,7 +2,6 @@
 
 
 
-
 Outflow
 https://iopscience.iop.org/article/10.3847/1538-4357/abb81f/pdf
 
@@ -13,7 +12,11 @@ DBSCAN
 https://iopscience.iop.org/article/10.3847/1538-3881/ac77ea/pdf
 
 
-TROY: Added delaunay_clustering python file. This essentially includes a method
-called show_peak() that shows an image (currently the 2D image from the data) and 
-circles the largest pixel element. There is also a method show() that just shows
-the image without the circle. 
+The idea is to cluster/segment image using an unsupervised learning method: Clustering: Hierachical Clustering: Dendrogram
+
+ 
+ 
+Later it can be expanded to clustering based on geometry instead of signal. This is to say we decompose 2D or 3D images into Delaunay triangles using some already implemented algo. 
+https://www.isprs.org/proceedings/XXXVII/congress/3b_pdf/70.pdf
+https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.Delaunay.html
+https://pymesh.readthedocs.io/en/latest/api_mesh_generation.html
